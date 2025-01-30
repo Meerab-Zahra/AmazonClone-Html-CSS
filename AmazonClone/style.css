@@ -1,0 +1,358 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+    color:white;
+}
+.navbar{
+    height:60px;
+    background-color:#0f1111;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.logo{
+    height:50px;
+    width:113px;
+    background-image:url("amazon_logo.png");
+    background-size:cover;
+  
+}
+.border{
+    border:2px solid transparent;
+}
+.border:hover{
+    border:2px solid white;
+}
+.mapIcon{
+    margin-top:17px;
+    display:inline-block;
+}
+#one{
+    padding-top:8px;
+    font-size:12px;
+    margin-left:1px;
+}
+#two{
+    font-size:14px;
+    font-weight:bold;
+    margin-left:1px;
+}
+.Address{
+    display:inline-block;
+}
+#search{
+    width:750px;
+    height:38px; 
+    border:none; 
+}
+.delivery{
+    width:92.4px;
+    height:50px;
+}
+#style1{
+    color: #0f1111;
+    width:45px;
+    height:38px;
+    background-color:rgb(212, 212, 212);
+    border:none; 
+}
+#button1{
+    background-color:#f08804;
+    width:45px;
+    height:38px;
+    border:none;
+}
+.SearchBar{
+    height:37px;
+    background-color: white;
+    border:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    border-radius:4px;
+
+}
+.SearchBar:hover{
+    height:39px;
+    box-sizing:content-box;
+    border:3px solid rgb(231, 105, 60);
+}
+.flag{
+    width:21.6px;
+    height:16.2px;
+    background-image:url("flag.png");
+    background-size:cover;
+    margin-top:19px;
+    display:inline-block;
+    
+}
+.language{
+    width:73.38px;
+    height:50px;
+    display:flex;
+    flex-direction:row;
+}
+.style2{
+    background-color:black;
+    color:white;
+    display:inline-block;
+    border:none;
+    font-size:15px;
+    font-weight:bold;
+    position:relative;
+    top:17px;
+}
+.three{
+    font-size:12px;
+    margin-top:5px;
+}
+.style3{
+    background-color:black;
+    color:white;
+    border:none;
+    font-size:14px;
+    font-weight:bold;
+}
+.options{
+    background-color:white;
+    color:black;
+}
+.shop{
+    width:80px;
+    height:50px;
+    background-color: #0f1111;
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    align-items:center;
+}
+#cartlogo{
+    width:41px;
+    height:28px;
+    padding-left:10px;
+}
+#style4{
+    font-size:14px;
+    font-weight:bold;
+    margin-top:10px;
+}
+.menubar{
+    background-color: #232F3E;
+    height:39px;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+.bars{
+    height:14px;
+    width:17px;
+    padding:10px;
+    display:inline-block;
+}
+#style4{
+    color:white;
+    font-size:14px;
+    font-weight:bold;
+    display:inline-block;
+}
+.all{
+    height:39px;
+    width:70px;
+    padding-right:20px;
+    margin-left:20px;
+    margin-right:5px;
+}
+.style5{
+    color:white;
+    font-size:14px;
+    display:inline-block;
+}
+.deal{
+    height:39px;
+    padding-top:8px;
+    margin-right:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.sell{
+    height:39px;
+    width:50px;
+    padding-top:8px;
+    margin-right:20px;
+    padding-left:10px;
+    padding-right:10px;
+}
+.style6{
+    color:white;
+    font-size:14px;
+    display:inline-block;
+    text-align:center;
+}
+.hero{
+    background-image:url("hero.jpg");
+    background-size:cover;
+    height:638px;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-end;
+}
+.account{
+    height:50px;
+    width:131.53px;
+}
+.order{
+    height:50px;
+    width:70px;
+}
+.game{
+    height:400px;
+    width:350px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding-left:10px;
+    flex-wrap:wrap;
+    margin-right:25px;
+    margin-left:25px;
+}
+#gameline{
+    font-size:21px;
+    color:black;
+    font-weight:bold; 
+}
+.write{
+    color:black;
+    font-size:13px;
+    width:120px;
+}
+.mouse{
+    padding-top:40px;
+}
+#clean{
+    width:0px;
+}
+.new{
+    position:relative;
+    right:130px;
+}
+.speaker{
+    height:400px;
+    width:350px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    padding-left:20px;
+    align-items:space-evenly;
+    margin-left:10px;
+    margin-right:10px;
+}
+#line{
+    font-size:21px;
+    color:black;
+    font-weight:bold; 
+    position:relative;
+    bottom:12px;
+}
+#homeline{
+    font-size:21px;
+    color:black;
+    font-weight:bold; 
+    position:relative;
+    bottom:5px;
+}
+.shoes{
+    position:relative;
+    right:40px;
+    top:16px;
+}
+.tops{
+    position:relative;
+    right:40px;
+    top:29px;
+}
+.arrowprev{
+    width:20px;
+    position:relative;
+    bottom:480px;
+}
+.arrownext{
+    position:relative;
+    bottom:450px;
+    left:1615px;
+}
+.below{
+    height:450px;
+    background-color:rgb(128, 128, 128,0.07);
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    padding-left:12px;
+    padding-right:25px;
+}
+.next{
+    height:400px;
+    width:350px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding-left:10px;
+    flex-wrap:wrap;
+    margin-right:20px;
+    margin-left:50px;
+}
+.decor{
+    position:relative;
+    right:130px;
+    top:30px;
+  
+}
+.bed{
+    position:relative;
+    right:130px;
+    top:10px;
+}
+.suit{
+    position:relative;
+    right:110px;
+    top:20px;
+  
+}
+.access{
+    position:relative;
+    right:110px;
+    top:8px;
+}
+.bagsdiv{
+    height:400px;
+    width:350px;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-evenly;
+    padding-left:10px;    
+    flex-wrap:wrap;
+    margin-left:30px;
+}
+.toy{
+    margin-left:30px;
+    margin-right:10px;
+}
+.watch{
+    position:relative;
+    right:60px;
+    
+}
+.footdiv{
+    height:100px;
+    background-color:#232F3E;
+}
+.footpara{
+    text-align:center;
+    font-size:16px;
+}
