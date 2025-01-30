@@ -1,2 +1,1 @@
-# AmazonClone-Html-CSS
-An Amazon clone built using HTML and CSS, replicating the homepage layout.
+Amazon Clone project built using HTML and CSS as my first step in frontend development. It replicates the homepage layout, styling and structure of Amazon. To run, simply open the index.html file in any web browser.
